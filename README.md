@@ -1,3 +1,0 @@
-# BowlingKata
-
-Création du projet
