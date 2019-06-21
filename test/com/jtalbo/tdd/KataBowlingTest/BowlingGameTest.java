@@ -7,8 +7,9 @@ import com.jtalbo.tdd.KataBowling.BowlingGame;
 public class BowlingGameTest {
 
 	@Test
-	public void createGameTest() {
-		new BowlingGame();
+	public void canRollGame() {
+		BowlingGame game = new BowlingGame();
+		game.roll(0);
 	}
 
 }
